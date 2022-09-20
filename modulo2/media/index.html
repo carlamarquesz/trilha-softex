@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Exercício 02 - JS</title>
+</head> 
+<body>
+    <div class="container"> 
+        <h1>Média e nota mínima</h1>
+        <p><b>Exercício:</b> Crie dois códigos de sistema de notas para uma escola. O primeiro código deve ser um programa que informa se o aluno reprovou, ou não, com base nas três notas que ele adicionou ao programa. Utilize, no mínimo, um operador de atribuição e um operador ternário. 
+            O segundo código é um programa que o aluno deve escrever duas notas e o retorno informa a nota mínima que ele deve tirar na próxima prova para poder passar com nota sete.</p>
+        <form>
+            <label>Nota 1:</label>
+            <input type="number" id="n1"><br><br>
+            <label>Nota 2:</label>
+            <input type="number" id="n2"><br><br>
+            <label>Nota 3:</label>
+            <input type="number" id="n3"><br><br>
+            <button type="button" id="btn" class="btn" >Calcular Média</button>
+        </form>
+        <p>Quer saber a nota mínima para tirar na próxima prova e passar com média sete? <a href="#"id="btn2">Clique aqui!</a></p>
+        <div id="notaMinima" style="display: none;">
+            <br>
+            <form>
+                <label>Nota 1:</label>
+                <input type="number" id="n4"><br><br>
+                <label>Nota 2:</label>
+                <input type="number" id="n5"><br><br> 
+                <button type="button" id="btn3" class="btn">Nota mínima</button>
+            </form>
+        </div> 
+    </div>
+</body> 
+<script src="notas.js"></script> 
+</html>
