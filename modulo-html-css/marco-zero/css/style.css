@@ -1,0 +1,187 @@
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Nunito", Helvetica, Arial, sans-serif;
+	color: #222222;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+ 
+/*Menu*/
+
+.menu-bg {
+	background: #f4a261;
+}
+
+.menu {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu a {
+	color: white;
+}
+
+.menu-logo a {
+	font-size: 2.25em;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+.menu-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-nav a {
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+}
+
+.menu-nav a:hover{
+	color: #a05211;
+}
+ 
+/*Introdução*/
+
+.introducao {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 100px 10px 10px 10px ;
+	line-height: 1.4;
+}
+.introducao h1 {
+	font-size: 2em; 
+	margin-bottom: 1em;
+}
+.introducao p {
+	font-size: 1em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7c7c7c;
+}
+
+/*Sobre*/
+
+.sobre { 
+	border-bottom: 2px solid #e3e3e3;
+	max-width: 960px;
+	margin: 10px auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sobre-info {
+	flex: 2 1 300px;
+	margin: 0 10px;
+}
+
+.sobre-info h1 {
+	font-size: 2em;
+	margin-bottom: .5em;
+}
+
+.sobre-info p {
+	font-size: 1em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7c7c7c;
+}
+
+.sobre-img {
+	flex: 1 1 160px;
+	margin: 0 10px;
+}
+ /*Outros*/
+
+.outros-h1 {
+	max-width: 960px;
+	margin: 10px auto;
+	font-size: 2em; 
+	padding: 60px 0 0 0 ;
+}
+.outros {
+	max-width: 960px;
+	margin: 60px auto;
+	display: flex;
+	flex-wrap: wrap; 
+}
+
+.outros-item {
+	flex: 1 1 300px;
+	margin: 20px 10px;
+	
+}
+
+.outros-item h2 {
+	font-size: 1.5em;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.outros-item h2::before {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.outros-item:nth-of-type(3n+1) h2::before {
+	background: #f4a261;
+}
+
+.outros-item:nth-of-type(3n+2) h2::before {
+	background: #f4a261;
+}
+
+.outros-item:nth-of-type(3n+3) h2::before {
+	background: #f4a261;
+}
+
+.outros-item p {
+	font-size: 1.25em;
+	line-height: 1.4;
+	color: #7c7c7c;
+	
+}
+/*Footer*/
+
+.footer {
+	display: flex;
+	background: #e2e2e2;
+	height: 100px;
+	align-items: center;
+}
+
+.footer p {
+	flex: 1;
+	text-align: center;
+	font-size: 1.25em; 
+	color: black;
+}
